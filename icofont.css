@@ -1,9 +1,10 @@
 @font-face {
-    font-family: IcoFont;
-    font-weight: 400;
-    font-style: Regular;
-    src: url("icofont.woff2") format("woff2"), 
-         url("icofont.woff") format("woff");
+    font-family: "IcoFont";
+    src: url("https://cdn.jsdelivr.net/gh/cealwing/al-assets@main/icofont.woff2") format("woff2"),
+         url("https://cdn.jsdelivr.net/gh/cealwing/al-assets@main/icofont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 [class*=" icofont-"],[class^=icofont-]{font-family:IcoFont!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;white-space:nowrap;word-wrap:normal;direction:ltr;line-height:1;-webkit-font-feature-settings:"liga";-webkit-font-smoothing:antialiased}
