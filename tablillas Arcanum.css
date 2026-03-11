@@ -1,25 +1,10 @@
 @font-face {
-font-family:"Oruguitas";
-src:url(https://dl.dropbox.com/scl/fi/goo8sm8z41yggr78esjhv/Oruguitas-Bold.otf?rlkey=7b03wn5xje4t885jqrrqm6p4q&dl=0)
+    font-family: "Oruguitas";
+    src: url("Oruguitas-Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
-@font-face {
-font-family:"Bebas";
-src:url(https://dl.dropbox.com/scl/fi/rek0qtb9rdu488nyio0nn/BebasKai.otf?rlkey=met1h0817ftmlwkn76guyzyey&dl=0)
-}
-@font-face {
-font-family:"Night";
-src:url(https://dl.dropbox.com/scl/fi/6ufcpzy0jkah1emm5vb2b/Through-the-night.ttf?rlkey=kamccv7brwj3m5bluj4676o3f&dl=0)
-}
-@font-face {
-font-family:"News";
-src:url(https://dl.dropbox.com/scl/fi/b0795c4bzgaiqweox8k71/More-news-from-nowhere-again.ttf?rlkey=bocdkxppcbs5d8c6x38w0jc7l&dl=0)
-}
-
-@font-face {
-font-family:"Editors";
-src:url(https://dl.dropbox.com/scl/fi/3b3mdhi1zrah6gy1fo54r/EDITORS.ttf?rlkey=706xpv0ynv1jk45dzkzb0t7kc&dl=0)
-}
-
 .material-icons {
 font-family:'Material Icons';
 font-weight:400;
