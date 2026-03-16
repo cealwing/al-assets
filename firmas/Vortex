@@ -1,0 +1,74 @@
+.vx-wrapper {
+    --v-main: #a29bfe; /* Color principal: Lavanda/Vortex */
+    --v-bg: #050505;
+    position: relative;
+    width: 450px;
+    height: 140px;
+    background: var(--v-bg);
+    border: 1px solid #1a1a1a;
+    display: flex;
+    overflow: hidden;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Efecto de escaneo de fondo */
+.vx-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0; left: -100%;
+    width: 100%; height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(162, 155, 254, 0.05), transparent);
+    animation: scan 4s infinite linear;
+}
+
+.vx-visual {
+    width: 120px;
+    height: 100%;
+    background: linear-gradient(135deg, #000 0%, #111 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid var(--v-main);
+}
+
+.vx-circle {
+    width: 60px;
+    height: 60px;
+    border: 1px solid var(--v-main);
+    border-radius: 50%;
+    box-shadow: 0 0 20px var(--v-main);
+    animation: pulse 2s infinite alternate ease-in-out;
+}
+
+.vx-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vx-name {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.vx-status {
+    color: var(--v-main);
+    font-size: 10px;
+    letter-spacing: 2px;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+
+@keyframes scan {
+    100% { left: 100%; }
+}
+
+@keyframes pulse {
+    from { transform: scale(0.9); opacity: 0.4; }
+    to { transform: scale(1.1); opacity: 1; }
+}
