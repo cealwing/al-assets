@@ -1607,20 +1607,15 @@
 
 /* Otros / Familia */
 .ncve[data-tablilla="ficha"] > [data-section*="extra"] {
-    display: flex;
+    display: flex; /* Asegura que se vean de lado */
     gap: 1px;
-    max-height: 20rem;
-    overflow: hidden;
+    max-height: none; /* Permite que la caja crezca si hay mucho texto */
+    overflow: visible;
     align-items: stretch;
 }
 
-.ncve[data-tablilla="ficha"] [data-section*="otros"] {
-    width: 60%;
-}
-
-.ncve[data-tablilla="ficha"] [data-section*="familia"] {
-    width: 40%;
-}
+.ncve[data-tablilla="ficha"] [data-section*="otros"] { width: calc(60% - 1px); }
+.ncve[data-tablilla="ficha"] [data-section*="familia"] { width: calc(40% - 1px); }
 
 /* Sección Historia */
 .ncve[data-tablilla="ficha"] > [data-section*="historia"] {
@@ -1663,6 +1658,10 @@
     text-align: justify;
     text-align-last: center;
     font-style: normal;
+}
+.ncve[data-tablilla="ficha"] [data-section="text"] {
+    overflow-y: auto !important;
+    max-height: inherit;
 }
 
 /* ============================================================
