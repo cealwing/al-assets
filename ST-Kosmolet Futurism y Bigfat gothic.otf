@@ -24,3 +24,11 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Bigfat gothic';
+    src: url('https://dl.dropboxusercontent.com/scl/fi/a7gfjyt16mn4jptz0td5q/Bigfatgothic-Regular.woff2?rlkey=agoz3lhgtj580aws28udste47&dl=0') format('woff2'),
+        url('https://dl.dropboxusercontent.com/scl/fi/q9ztudddwsikbmp6qjaq7/Bigfatgothic-Regular.woff?rlkey=7yursknqbczc359ndd8s1jntw&dl=0') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
