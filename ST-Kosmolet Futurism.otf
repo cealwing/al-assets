@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'ST-Kosmolet Futurism';
+    src: url('https://dl.dropboxusercontent.com/scl/fi/bah61unnwj8waj6a49p7m/STKosmoletFuturism.woff2?rlkey=5sdnmf7v9sddlnl4bsct39ifw&st=q0antj2s&dl=0') format('woff2'),
+        url('https://dl.dropboxusercontent.com/scl/fi/xiu2lbsu8uwuovk26on6r/STKosmoletFuturism.woff?rlkey=koxf7dybsnmbcxqaf6e87x7qz&st=zd7aczfh&dl=0') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ST-Kosmolet Construtivism';
+    src: url('https://dl.dropboxusercontent.com/scl/fi/8vml3mlqp65q5umbxeqvr/STKosmoletConstrutivism.woff2?rlkey=7n6274qyedprd5dko6n968a40&st=09cac38t&dl=0') format('woff2'),
+        url('https://dl.dropboxusercontent.com/scl/fi/6kyycfm7e0m03kgcxm6k0/STKosmoletConstrutivism.woff?rlkey=mb5dayhansoc6n8f76n8n7ojl&st=27xjtf0x&dl=0') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ST-Kosmolet Modernism';
+    src: url('https://dl.dropboxusercontent.com/scl/fi/y56jhiap1pgkj5vqnk7hz/STKosmoletModernism.woff2?rlkey=pwxera1ltt0qnonr9nfzzrx0l&st=4b7qbza1&dl=0') format('woff2'),
+        url('https://dl.dropboxusercontent.com/scl/fi/1a6zdb7ddpd1enbk1txbm/STKosmoletModernism.woff?rlkey=99ir9d53k5gunein4i4ceyen7&st=8xsac479&dl=0') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
