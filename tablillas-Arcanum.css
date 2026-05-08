@@ -384,7 +384,7 @@ font-weight:700;
 color:var(--group);
 text-transform:uppercase
 }
-/*----- FICHA -------*/
+
 /*----- FICHA -------*/
 
 /* (opcional de seguridad, ya no debería hacer falta) */
@@ -406,27 +406,48 @@ text-transform:uppercase
 
 /* contenedor principal */
 .tablilla .ficconts{
-  margin:10px;overflow:hidden;border:var(--border1);
-  height:450px;position:relative;border-radius:10px;
+  margin:10px;
+  overflow:hidden;
+  border:var(--border1);
+  height:auto;              /* ← clave */
+  min-height:450px;         /* ← mantiene tamaño */
+  position:relative;
+  border-radius:10px;
   background:rgba(0,0,0,0.1);
 }
 
 .tablilla .ficconts>div{
-  height:450px;overflow:hidden;position:absolute;inset:0;
-  transform:rotate(-180deg);transform-origin:top left;
+  height:100%;              /* ← clave */
+  min-height:450px;
+  overflow:hidden;
+  position:absolute;
+  inset:0;
+  transform:rotate(-180deg);
+  transform-origin:top left;
   transition:ease 1.5s;
 }
-.tablilla .ficconts>div.ficactive{transform:rotate(0deg);}
+
+.tablilla .ficconts>div.ficactive{
+  transform:rotate(0deg);
+}
 
 /* === IMAGEN (FIX REAL) === */
 .tablilla .ficconts>div.ficcont1{
-  position:absolute;inset:0;overflow:hidden;border-radius:10px;
+  position:absolute;
+  inset:0;
+  overflow:hidden;
+  border-radius:10px;
 }
+
 .tablilla .ficconts>div.ficcont1 img{
-  position:absolute;top:50%;left:50%;
+  position:absolute;
+  top:50%;
+  left:50%;
   transform:translate(-50%,-50%);
-  width:100%;height:100%;
-  object-fit:cover;display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
   filter:var(--filter);
 }
 
