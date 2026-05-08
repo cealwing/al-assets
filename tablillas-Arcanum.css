@@ -384,9 +384,14 @@ font-weight:700;
 color:var(--group);
 text-transform:uppercase
 }
-/*-----FICHA-------*/
+/*----- FICHA -------*/
 .tablilla.ficha .ficconts .resizebox {
-    display: none !important;
+    display: block !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
 }
 .tablilla.ficha {
 width:700px
