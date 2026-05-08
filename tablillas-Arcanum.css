@@ -61,20 +61,25 @@ margin:10px auto;
 --border1:1px solid #282828
 }
 .tablilla br{display:none}
-
 .tablilla .tabheader,.tablilla .fictabs,.tablilla .fictabs span,.tablilla .ficconts>div,.tablilla .ficdatos,.tablilla .ficdatos span,.tablilla .ficdatos b,.tablilla .tabstats,.tablilla .tabstats,.tablilla .tabstats span,.tablilla .ficenv,.tablilla .tabenv,.inventario .tabody,.crono .tabody,.crono .tabtext a,.batallaenv,.batalla .batabs,.batalla .batabs span,.tablilla .tabarra,.tablilla .tabarras,.tabdatos,.tabdatos span,.bestiaenv{display:flex;align-items:center;justify-content:center}
-
 .tablilla .tabheader{height:90px;border-bottom:var(--border1);text-align:center;justify-content:flex-start;padding:0 40px;font:25px Oruguitas;font-weight:700;color:var(--group);text-transform:uppercase}
 
 /*----- FICHA -------*/
-.tablilla.ficha span.resizebox{display:none!important;}
+
 .tablilla.ficha{width:700px;}
 
+/* FIX resize (real) */
+.tablilla.ficha .resizebox .resize_content{display:none!important;}
+.tablilla.ficha .resizebox{line-height:0;}
+.tablilla.ficha .resizebox img{display:block;width:100%;height:100%;object-fit:cover;}
+
+/* tabs */
 .tablilla .fictabs{border-top:var(--border1);}
 .tablilla .fictabs span{flex-grow:1;padding:20px;font:10px var(--f-mono2);font-weight:700;color:#666;cursor:pointer;border-right:var(--border1);}
 .tablilla .fictabs span:last-of-type{border-right:0;}
 .tablilla .fictabs span:hover,.tablilla .fictabs span.ficactive{color:#ccc;}
 
+/* contenedor */
 .tablilla .ficconts{margin:10px;overflow:hidden;border:var(--border1);height:auto;min-height:450px;position:relative;border-radius:10px;background:rgba(0,0,0,0.1);}
 .tablilla .ficconts>div{height:100%;min-height:450px;overflow:hidden;position:absolute;inset:0;transform:rotate(-180deg);transform-origin:top left;transition:ease 1.5s;}
 .tablilla .ficconts>div.ficactive{transform:rotate(0deg);}
