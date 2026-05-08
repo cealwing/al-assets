@@ -137,66 +137,7 @@ margin:10px auto;
 .tablilla .tabheader,.tablilla .fictabs,.tablilla .fictabs span,.tablilla .ficconts>div,.tablilla .ficdatos,.tablilla .ficdatos span,.tablilla .ficdatos b,.tablilla .tabstats,.tablilla .tabstats,.tablilla .tabstats span,.tablilla .ficenv,.tablilla .tabenv,.inventario .tabody,.crono .tabody,.crono .tabtext a,.batallaenv,.batalla .batabs,.batalla .batabs span,.tablilla .tabarra,.tablilla .tabarras,.tabdatos,.tabdatos span,.bestiaenv{display:flex;align-items:center;justify-content:center}
 .tablilla .tabheader{height:90px;border-bottom:var(--border1);text-align:center;justify-content:flex-start;padding:0 40px;font:25px Oruguitas;font-weight:700;color:var(--group);text-transform:uppercase}
 
-/* FICHA */
-.tablilla.ficha span.resizebox{display:none!important}.tablilla.ficha{width:700px}
 
-.tablilla .fictabs{border-top:var(--border1)}
-.tablilla .fictabs span{flex-grow:1;padding:20px;font:10px var(--f-mono2);font-weight:700;color:#666;cursor:pointer;border-right:var(--border1)}
-.tablilla .fictabs span:last-of-type{border-right:0}
-.tablilla .fictabs span:hover,.tablilla .fictabs span.ficactive{color:#ccc}
-
-.tablilla .ficconts{margin:10px;overflow:hidden;border:var(--border1);height:auto;min-height:450px;position:relative;border-radius:10px;background:rgba(0,0,0,0.1)}
-.tablilla .ficconts>div{height:100%;min-height:450px;overflow:hidden;position:absolute;inset:0;transform:rotate(-180deg);transform-origin:top left;transition:ease 1.5s}
-.tablilla .ficconts>div.ficactive{transform:rotate(0deg)}
-
-/* IMAGEN */
-.tablilla .ficconts>div.ficcont1{position:absolute;inset:0;overflow:hidden;border-radius:10px}
-.tablilla .ficconts>div.ficcont1 img{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100%;height:100%;object-fit:cover;display:block;filter:var(--filter)}
-
-/* DATOS */
-.tablilla .ficdatos{width:250px;padding:10px;gap:10px;flex-direction:column;align-self:stretch;flex-shrink:0;font-size:11px;border-right:var(--border1)}
-.tablilla .ficdatos span{flex-grow:1;align-self:stretch;border:var(--border1);box-sizing:border-box;height:100%;background:rgba(0,0,0,0.05)}
-.tablilla .ficdatos b{background:rgba(0,0,0,0.05);align-self:stretch;padding:0 5px;font-weight:700;text-transform:uppercase;width:40%;text-align:center;color:var(--group);border-right:var(--border1)}
-.tablilla .ficdatos i{flex-grow:1;font-style:normal;margin:0 10px;color:#999}
-
-/* HISTORIA */
-.tablilla .fichistoria{flex-grow:1;align-self:stretch}
-.tablilla .ficheader{background:rgba(0,0,0,0.05);border-bottom:var(--border1);width:93%;height:40px;font-size:12px;font-weight:700;line-height:40px;text-transform:uppercase;color:#ccc;padding:0 15px}
-.tablilla .fichistoria .ficheader{color:var(--group)}
-
-.tablilla .tabtext br{display:inline}
-.tablilla .tabtext{overflow:auto;margin:10px 5px 10px 10px;height:calc(100% - 61px);padding-right:5px;text-align:justify;font:13px var(--f-titles);line-height:140%}
-.tablilla .tabtext b{color:var(--group)}
-
-/* SCROLL */
-.tablilla ::-webkit-scrollbar{width:1px}
-.tablilla ::-webkit-scrollbar-track{background:transparent}
-.tablilla ::-webkit-scrollbar-thumb{background:var(--group)}
-
-/* STATS */
-.tablilla .ficconts>div.ficcont3{flex-direction:column}
-.tablilla .tabstats{flex-wrap:wrap;padding:10px;gap:10px}
-.ficha .tabstats{border-bottom:var(--border1);align-self:stretch}
-.tablilla .tabstats span{border:var(--border1);background:rgba(0,0,0,0.05);flex-grow:1;align-self:stretch;flex-direction:column;box-sizing:border-box;border-radius:5px}
-.ficha .tabstats span{width:calc(20% - 10px);height:55px}
-.tablilla .tabstats b{font:18px var(--f-mono2);font-weight:700;color:#ccc;line-height:15px}
-.tablilla .tabstats i{color:var(--group);font-size:12px;font-weight:700;font-style:normal}
-
-/* BLOQUES */
-.tablilla .ficenv,.tablilla .fichabs{align-self:stretch;flex-grow:1;height:309px}
-.tablilla .ficdv{align-self:stretch;width:200%;border-left:var(--border1);height:309px}
-.tablilla .ficdv>div{width:100%;height:50%;box-sizing:border-box}
-.tablilla .ficdv>div.ficdv1{border-bottom:var(--border1)}
-
-.ficha .ficenv b{color:#fff!important}
-.ficha .ficenv u{margin:0 3px;text-transform:uppercase;color:var(--group);text-decoration:none}
-.ficha .ficenv i{font-weight:400;font-style:normal;color:#999}
-
-/* LAYOUT */
-.ficha .ficpers{width:270%;border-right:var(--border1)}
-.ficha .ficotros,.ficha .ficpers{align-self:stretch}
-.ficha .ficotros{flex-grow:1}
-.ficha .ficotros .tabtext{height:calc(100% - 20px);width:220px}
 
 /* INVENTARIO */
 .tablilla.inventario{width:750px}
