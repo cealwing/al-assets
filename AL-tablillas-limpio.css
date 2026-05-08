@@ -649,7 +649,7 @@
 
 .ncve[data-tablilla="rol1"] [data-section="text"] {
     margin-block: clamp(1rem, 5%, 2.5rem);
-    font-size: var(--fs-smaller);
+    font-size: var(--fs-body);
     line-height: 1.35em;
 }
 
@@ -733,7 +733,7 @@
     margin-block: 1px;
     background: var(--tbckg0);
     backdrop-filter: var(--ft-blur);
-    font-size: var(--fs-smaller);
+    font-size: var(--fs-body);
     line-height: 1.35em;
 }
 
