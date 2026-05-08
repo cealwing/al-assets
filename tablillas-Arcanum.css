@@ -385,6 +385,9 @@ color:var(--group);
 text-transform:uppercase
 }
 /*-----FICHA-------*/
+.tablilla.ficha .ficconts .resizebox {
+    display: none !important;
+}
 .tablilla.ficha {
 width:700px
 }
