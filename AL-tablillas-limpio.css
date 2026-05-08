@@ -113,7 +113,7 @@
 .ncve[data-tablilla="rol2"] [data-section="header"]>span{background:var(--tbckg0);backdrop-filter:var(--ft-blur);flex-grow:1;display:flex;justify-content:center;align-items:center;flex-direction:column;text-align:center;padding:0 1rem;}
 .ncve[data-tablilla="rol2"] span b{color:var(--group-25);-webkit-text-stroke:clamp(.25px,.1em,.5px) var(--group);font:3.75rem var(--f-deco);line-height:1em;text-transform:lowercase;}
 .ncve[data-tablilla="rol2"] span i{color:var(--text2);font:700 var(--fs-deco) var(--f-mono);line-height:1em;text-transform:uppercase;padding:0 2em;font-style:normal;}
-.ncve[data-tablilla="rol2"] [data-section="text"]{padding:clamp(3rem,10%,2.5rem);margin-block:1px;background:var(--tbckg0);backdrop-filter:var(--ft-blur);font-size:var(--fs-body);line-height:1.35em;}
+.ncve[data-tablilla="rol2"] [data-section="text"]{padding:clamp(3rem,10%,2.5rem);margin-block:1px;background:var(--tbckg0);backdrop-filter:var(--ft-blur);font-size:14px!important;line-height:1.35em;}
 .ncve[data-tablilla="rol2"] [data-section="text"] br{display:inline;}
 
 /* ============================================================ BLOQUE 6: BÚSQUEDAS ============================================================ */
