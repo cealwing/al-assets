@@ -57,7 +57,7 @@ font-weight:700;font-size:30px;text-align:left;float:left;padding-right:20px;
   overflow: hidden;
   margin: 10px auto;
   --filter: grayscale(1) brightness(.75) contrast(.90);
-  --border1: 1px solid var(--border1-c);
+  --border1: 1px solid #282828;
 }
 .tablilla br { display: none; }
 .tablilla .tabheader,
@@ -93,11 +93,10 @@ font-weight:700;font-size:30px;text-align:left;float:left;padding-right:20px;
 .tablilla.ficha .resizebox img { display: block; width: 100%; height: 100%; object-fit: cover; }
 
 /* tabs */
-.tablilla .fictabs { border-top: var(--border1); }
-.tablilla .fictabs span { flex-grow: 1; padding: 20px; font: var(--fset-mono4); color: var(--text3); cursor: pointer; border-right: var(--border1); }
-.tablilla .fictabs span:last-of-type { border-right: 0; }
+.tablilla .fictabs { border-top: var(--border1); gap: 1px; background: #282828; }
+.tablilla .fictabs span { flex-grow: 1; padding: 20px; font: var(--fset-mono4); color: var(--text3); cursor: pointer; border: none; background: var(--dbckg1); }
 .tablilla .fictabs span:hover,
-.tablilla .fictabs span.ficactive { color: var(--subtitle); }
+.tablilla .fictabs span.ficactive { color: var(--subtitle); background: var(--dbckg0); }
 
 /* contenedor */
 .tablilla .ficconts { margin: 10px; overflow: hidden; border: var(--border1); height: auto; min-height: 450px; position: relative; background: var(--dbckg0); }
