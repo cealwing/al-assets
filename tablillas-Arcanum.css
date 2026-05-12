@@ -94,7 +94,7 @@ font-weight:700;font-size:30px;text-align:left;float:left;padding-right:20px;
 
 /* tabs */
 .tablilla .fictabs { gap: 1px; background: #282828; }
-.tablilla .fictabs span { flex-grow: 1; padding: 20px; font: var(--fset-mono4); color: var(--text3); cursor: pointer; background: var(--dbckg1); border-bottom: var(--border1); }
+.tablilla .fictabs span { flex-grow: 1; padding: 20px; font: var(--fset-mono4); color: var(--text3); cursor: pointer; background: var(--dbckg1); border: var(--border1); }
 .tablilla .fictabs span:hover,
 .tablilla .fictabs span.ficactive { color: var(--subtitle); background: var(--dbckg0); }
 
