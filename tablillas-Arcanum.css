@@ -129,7 +129,7 @@ font-weight:700;font-size:30px;text-align:left;float:left;padding-right:20px;
 
 /* stats */
 .tablilla .ficconts > div.ficcont3 { flex-direction: column; }
-.tablilla .tabstats { flex-wrap: wrap; padding: 10px; gap: 10px; }
+.tablilla .tabstats { display: flex; flex-wrap: wrap; padding: 10px; gap: 10px; }
 .ficha .tabstats { border-bottom: var(--border1); align-self: stretch; }
 .tablilla .tabstats span { border: var(--border1); background: var(--dbckg0); flex-grow: 1; align-self: stretch; flex-direction: column; box-sizing: border-box; }
 .ficha .tabstats span { width: calc(20% - 10px); height: 55px; }
@@ -170,7 +170,7 @@ font-weight:700;font-size:30px;text-align:left;float:left;padding-right:20px;
 
 .tablilla .tabsubheader{border-bottom:var(--border1);background:rgba(0,0,0,0.05);font-size:10px;color:#ccc;text-transform:uppercase;font-weight:700;height:41px;padding:12px;box-sizing:border-box}
 .tablilla .tabsubhead{font:17px var(--f-mono2);font-weight:700;color:#eee;text-transform:uppercase;margin:10px 10px -5px;width:fit-content}
-.tablilla.inventario .tabsubhead{margin:0}
+.tablilla .inventario .tabsubhead{margin:0}
 .tablilla .tabsubhead:after{content:'';display:block;height:1px;background:var(--group);width:50%;margin-top:5px}
 
 /* CRONO */
@@ -197,7 +197,7 @@ font-weight:700;font-size:30px;text-align:left;float:left;padding-right:20px;
 .batallaenv{gap:20px;width:500px;flex-wrap:wrap;margin:0 auto;align-items:flex-start}
 .tablilla .batalla{width:470px;box-sizing:border-box;border:1px solid #282828}
 .batalla .batabs{border-top:var(--border1)}
-.batalla,.batabs span{flex-grow:1;padding:10px;font-size:10px;text-transform:uppercase;font-weight:700;color:#888;border-right:var(--border1);box-sizing:border-box;width:100%;cursor:pointer}
+.batalla .batabs span{flex-grow:1;padding:10px;font-size:10px;text-transform:uppercase;font-weight:700;color:#888;border-right:var(--border1);box-sizing:border-box;width:100%;cursor:pointer}
 .batalla .batabs span.batactive{color:#ccc}
 
 .batalla .tabstats{flex-wrap:wrap;height:110px;border-bottom:var(--border1)}
@@ -217,7 +217,7 @@ font-weight:700;font-size:30px;text-align:left;float:left;padding-right:20px;
 
 .tablilla .tabarras{padding:10px;gap:10px;border-bottom:var(--border1)}
 .tablilla .tabarra{border:var(--border1);padding:3px;background:rgba(0,0,0,0.05);border-radius:999px;height:15px;flex-grow:1;justify-content:flex-start;overflow:hidden}
-.tablilla.batalla .tabarra{width:100%}
+.tablilla .batalla .tabarra{width:100%}
 
 .tablilla .tabarra m{background:var(--group);width:calc((var(--actual)*100%)/var(--total));height:100%;border-radius:999px;text-align:right;min-width:fit-content}
 .tablilla .tabarra m:before{counter-reset:actual var(--actual) total var(--total);content:counter(actual)'/'counter(total);color:#000;font:11px var(--f-mono2);font-weight:700;margin:0 5px;text-transform:uppercase}
@@ -254,7 +254,7 @@ font-weight:700;font-size:30px;text-align:left;float:left;padding-right:20px;
 .bestia .besthabs{border-top:var(--border1)}
 
 /* BESTIA2 */
-.bestia2{width:500px}
+.bestia2 {width:500px}
 .bestia2 .tabheader2{position:relative;isolation:isolate;height:180px;flex-direction:column;justify-content:center;overflow:hidden;display:flex;align-items:center;justify-content:center;border-bottom:var(--border1)}
 .bestia2 .tabheader2 em{color:var(--grupcolor);font-size:220px;position:absolute;z-index:-1;opacity:.25}
 .bestia2 .tabheader2 span{font:10px var(--f-oru);text-transform:uppercase;color:#fff;flex-direction:column;justify-content:center;align-items:flex-start;font-size:25px;height:120px;line-height:25px}
