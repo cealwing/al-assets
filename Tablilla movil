@@ -1,0 +1,122 @@
+.btcell1 {
+  border: 1px solid #ddd;
+  background: #fafafa;
+  width: 330px;
+  height: 500px;
+  margin: 10px auto;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 15px;
+  box-shadow: 4px 4px 9px #ddd;
+}
+.btcell1-c {
+  position: relative;
+  height: 100%;
+  border: 1px solid #ddd;
+  justify-content: center;
+  border-radius: 10px;
+  background: #f3f3f3;
+  overflow: hidden;
+}
+.btcell1-chattit {
+  height: 80px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.btcell1-chat {
+  box-sizing: border-box;
+  padding: 20px;
+  height: 360px;
+  border-bottom: 1px solid #ddd;
+  overflow: auto;
+}
+.btcell1-barra {
+  background: #eee;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.btcell1-barra > barra {
+  border: 1px solid #ddd;
+  width: 190px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 10px;
+  background: #f3f3f3;
+  border-radius: 8px;
+}
+.btcell1-barra span {
+  font-size: 13px;
+  font-family: "Lato";
+  color: #aaa;
+}
+.btcell1-barra > bot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 65px;
+  border-radius: 8px;
+  margin-left: 5px;
+  font-size: 13px;
+  color: #fff;
+  font-family: "Lato";
+}
+.btcell1-chattit > b {
+  font-family: "Fira Sans";
+  font-size: 900;
+  font-style: italic;
+  color: #fff;
+  font-size: 19px;
+  position: absolute;
+}
+.btcell1-chattit > i {
+  font-size: 40px;
+  color: #ffffff3a;
+  position: relative;
+  margin-right: -225px;
+}
+.btcell1-chat > chat-emisor,
+.btcell1-chat > chat-receptor {
+  border: 1px solid #ddd;
+  width: 260px;
+  display: block;
+  background: #f3f3f3;
+  margin-left: 20px;
+  border-radius: 20px 20px 0px 20px;
+  box-sizing: border-box;
+  padding: 25px 22px;
+  line-height: 16px;
+  margin-bottom: 8px;
+  text-align: justify;
+}
+.btcell1-chat > chat-emisor > span,
+.btcell1-chat > chat-receptor > span {
+  font-size: 13px;
+  font-family: "Lato";
+  color: #777;
+}
+.btcell1-chat::-webkit-scrollbar {
+  background: #eee;
+  border-left: 1px solid #ddd;
+  height: 5px !important;
+  width: 6px !important;
+}
+.btcell1-chat::-webkit-scrollbar-thumb {
+  background: #ddd;
+}
+.btcell1-chat > chat-receptor {
+  border-radius: 20px 20px 20px 0px;
+  margin-right: 20px;
+  margin-left: 0;
+}
+.btcell1-chat > br {
+  display: none;
+}
