@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
-/* 1. DEFINICIÓN DE LA FUENTE (Desde respaldo estable de Tumblr) */
+/* 1. DEFINICIÓN DE LA FUENTE (GitHub + jsDelivr) */
 @font-face {
     font-family: 'cappuccicons';
-    src: url('https://static.tumblr.com/svdghan/7pnr83m84/cappuccicons.ttf') format('truetype');
+    src:
+        url('https://cdn.jsdelivr.net/gh/cealwing/al-assets/cappuccicons.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/cealwing/al-assets/cappuccicons.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
