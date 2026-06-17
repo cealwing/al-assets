@@ -216,7 +216,7 @@ font-weight:700;font-size:30px;text-align:left;float:left;padding-right:20px;
 .batalla .tabtext{height:auto;max-height:auto;overflow:revert;line-height:18px;font-weight:400;font:12px var(--f-mono)}
 
 .tablilla .tabarras{padding:10px;gap:10px;border-bottom:var(--border1)}
-.tablilla .tabarra{border:var(--border1);padding:3px;background:rgba(0,0,0,0.05);border-radius:999px;height:15px;flex-grow:1;justify-content:flex-start;overflow:hidden}
+.tablilla .tabarra{border:var(--border1);padding:3px;background:rgba(0,0,0,0.05);border-radius:999px;height:18px;flex-grow:1;justify-content:flex-start;overflow:hidden}
 .tablilla .batalla .tabarra{width:100%}
 
 .tablilla .tabarra m{background:var(--group);width:calc((var(--actual)*100%)/var(--total));height:100%;border-radius:999px;text-align:right;min-width:fit-content}
