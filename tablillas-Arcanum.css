@@ -119,7 +119,7 @@ font-weight:700;font-size:30px;text-align:left;float:left;padding-right:20px;
 .tablilla .fichistoria .ficheader { color: var(--c1); }
 
 .tablilla .tabtext br { display: inline; }
-.tablilla .tabtext { overflow: auto; margin: 10px 5px 10px 10px; height: calc(100% - 61px); padding-right: 5px; text-align: justify; font: var(--text); line-height: 1.4em; }
+.tablilla .tabtext { overflow: auto; margin: 10px 5px 10px 10px; height: calc(100% - 61px); padding-right: 5px; text-align: justify; font: var(--fset-body1); line-height: 1.4em; }
 .tablilla .tabtext b { color: var(--c1); }
 
 /* scroll */
