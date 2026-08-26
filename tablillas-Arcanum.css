@@ -159,7 +159,9 @@ font-weight:700;font-size:30px;text-align:left;float:left;padding-right:20px;
 .tablilla.inventario{width:750px}
 .inventario.tabtext br{display:none}
 .inventario.tabtext b{display:block;margin-bottom:10px}
-.inventario.tabtext i{color: var(--text)}
+.postbody .content .tablilla.inventario .tabtext i {
+  color: var(--text) !important;
+}
 .inventario.tabtext{line-height:15px;height:calc(100% - 63px)}
 .inventario.tabenv:first-of-type .tabtext{margin:10px -5px 0 0;height:calc(100% - 43px)}
 .inventario.tabody{height:480px}
