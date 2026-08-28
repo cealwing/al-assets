@@ -161,7 +161,7 @@
 .ncve[data-tablilla*="admin"] [data-section="header"] b{font:var(--fs-h2) var(--f-deco);line-height:1em;color:var(--group-25);-webkit-text-stroke:clamp(.25px,.1em,.5px) var(--group);}
 .ncve[data-tablilla*="admin"] [data-section="header"] i{font:700 var(--fs-deco) var(--f-mono);text-transform:uppercase;padding:0 2em;color:var(--text2);font-style:normal;}
 
-.ncve[data-tablilla*="admin"] [data-section="text"]{padding:clamp(2rem,5%,4rem);background:var(--tbckg0);backdrop-filter:var(--ft-blur);font-size:var(--fs-small);line-height:1.35em;}
+.ncve[data-tablilla*="admin"] [data-section="text"]{padding:clamp(2rem,5%,4rem);background:var(--tbckg0);backdrop-filter:var(--ft-blur);font-size:font-size:1rem;line-height:1.55em;}
 .ncve[data-tablilla*="admin"] [data-section="text"] br{display:inline;}
 .ncve[data-tablilla*="admin"] [data-section="text2"]{padding:15px;background:var(--tbckg0);backdrop-filter:var(--ft-blur);}
 
